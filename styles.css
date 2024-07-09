@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid red;
+}
+
