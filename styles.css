@@ -3,14 +3,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 0.5em;
+    background-color: seashell;
+    border: 1px solid rgb(86, 86, 86);
+    cursor: pointer;
+}
+
+.button-container {
+    margin: 2em;
 }
 
 .display-books {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .card {
-    border: 1px solid red;
+    border: 1px solid rgb(86, 86, 86);
+    background-color: rgb(176, 255, 255);
+    padding: 2em;
+    width: 20ch;
 }
 
